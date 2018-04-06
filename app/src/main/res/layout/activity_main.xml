@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_firts"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/them"
+        android:textColor="@android:color/background_light"
+        android:textSize="35dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp">
+
+    <Button
+        android:id="@+id/bnt_thu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/thu"
+        android:textColor="@android:color/background_light"
+        android:textSize="24dp"
+        />
+
+    <Button
+        android:id="@+id/bnt_chi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="46dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/chi"
+        android:textColor="@android:color/background_light"
+        android:textSize="24dp" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btn_huy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/huy"
+        android:textColor="@android:color/background_light"
+        android:textSize="24dp" />
+</LinearLayout>
+
+
